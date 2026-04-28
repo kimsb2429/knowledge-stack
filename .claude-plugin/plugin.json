@@ -1,0 +1,6 @@
+{
+  "name": "knowledge-stack",
+  "description": "Unified surface for cross-domain knowledge: code intelligence (SCIP), document RAG, and workplace tools (Confluence/Jira). Three specialists behind one /ask command.",
+  "version": "0.0.1",
+  "author": {"name": "Jae Kim"}
+}
