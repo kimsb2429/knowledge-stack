@@ -1,13 +1,20 @@
 {
   "name": "knowledge-stack",
   "owner": {
-    "name": "Jae Kim"
+    "name": "Jae Kim",
+    "url": "https://github.com/kimsb2429"
+  },
+  "metadata": {
+    "description": "Single-plugin marketplace for the knowledge-stack plugin: a routing surface that wraps cross-repo code intelligence, document RAG, and Atlassian behind one /ask command",
+    "version": "0.0.1"
   },
   "plugins": [
     {
       "name": "knowledge-stack",
-      "source": ".",
-      "description": "Routing surface for cross-domain knowledge: code intelligence (SCIP), document RAG, and Atlassian (Confluence/Jira). Three specialist subagents behind one /ask command."
+      "source": "./plugins/knowledge-stack",
+      "description": "Three specialist subagents (code, docs, work) behind one /ask command. Routes questions to the right knowledge domain.",
+      "version": "0.0.1",
+      "category": "productivity"
     }
   ]
 }
