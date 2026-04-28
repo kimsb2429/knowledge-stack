@@ -1,0 +1,13 @@
+{
+  "name": "knowledge-stack",
+  "owner": {
+    "name": "Jae Kim"
+  },
+  "plugins": [
+    {
+      "name": "knowledge-stack",
+      "source": ".",
+      "description": "Routing surface for cross-domain knowledge: code intelligence (SCIP), document RAG, and Atlassian (Confluence/Jira). Three specialist subagents behind one /ask command."
+    }
+  ]
+}

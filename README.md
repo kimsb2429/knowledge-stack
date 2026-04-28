@@ -14,11 +14,14 @@ The plugin ships **only the routing layer** — three subagent descriptions, an 
 
 ## Install
 
-From a public GitHub URL:
+This repo is both a Claude Code marketplace and a plugin (single-plugin marketplace pattern). Two commands:
 
 ```
-/plugin install knowledge-stack@kimsb2429/knowledge-stack
+/plugin marketplace add kimsb2429/knowledge-stack
+/plugin install knowledge-stack@knowledge-stack
 ```
+
+The first adds this repo as a marketplace; the second installs the plugin from it.
 
 For local development:
 
